@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Nanum+Myeongjo&display=swap");
+@import url("https://fonts.gstatic.com");
+
+
+.nanum-myeongjo-regular {
+  font-family: "Nanum Myeongjo", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.black-han-sans-regular {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 100000;
+  font-style: normal;
+  color: aliceblue;
+}
+footer {
+  text-align: center;
+  padding: 100px;
+  background-color: transparent;
+  color: #000;
+}

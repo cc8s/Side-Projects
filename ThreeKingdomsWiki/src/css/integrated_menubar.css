@@ -1,0 +1,133 @@
+
+/* Global reset */
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+/* Section styling */
+section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: contents;
+    position: relative;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    display: inline-block;
+    background-color: #0f0f0fdc; /* Using a semi-transparent dark background as in menubar2.css */
+    font-size: 40px; /* As specified in menubar.css for larger text */
+    height: 64.3pt;
+    font-family: "Black Han Sans", sans-serif; /* Specific font styling from menubar.css */
+    margin-bottom: auto;
+}
+
+/* Logo styling */
+#logo {
+    float: left;
+    font-size: 23%;
+    text-transform: uppercase;
+    color: #002e5b;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+/* Navigation styling */
+nav {
+    width: auto;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    position: relative; /* As specified in menubar.css */
+    width: 180px; /* Specific width from menubar.css */
+    padding: 1px;
+    margin: 1px;
+}
+
+nav ul li a {
+    color: goldenrod;
+    font-size: 18px;
+    padding: 25px 20px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a:hover {
+    background-color: #002e5b;
+    color: #28fd6f; /* Hover effect colors from menubar2.css */
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a:hover i {
+    color: #fde428; /* Icon hover color transition */
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a i {
+    padding-right: 0px;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s ease 0s;
+    text-align: right;
+}
+
+/* Menu color styling from menubar.css */
+.menu1 > li { background-color: #003d98; }
+.menu2 > li { background-color: #009826; }
+.menu3 > li { background-color: #980a00; }
+.menu4 > li { background-color: #000000; }
+
+/* Submenu display handling from menubar.css */
+.submenu {
+    display: none;
+}
+
+/* Hover effect for showing submenu and changing background color */
+.menu1 > li:hover, .menu2 > li:hover, .menu3 > li:hover, .menu4 > li:hover {
+    transition-duration: 1s;
+}
+
+.menu1 > li:hover .submenu, .menu2 > li:hover .submenu, .menu3 > li:hover .submenu, .menu4 > li:hover .submenu {
+    display: block;
+    transition-duration: 1s;
+}
+
+.menu1 > li:hover { background-color: #6815d4; }
+.menu2 > li:hover { background-color: #83a506; }
+.menu3 > li:hover { background-color: #cc6607; }
+.menu4 > li:hover { background-color: #6d4c2c; }
+
+i {
+    position: relative;
+    float: right;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 200px auto 200px; /* nav 고정 너비, main 나머지 공간 */
+    align-items: start;
+    position: relative;
+}
+
+main {
+    max-width: 100%;
+    padding: 100px; /* 내부 패딩 */
+    box-sizing: border-box; /* 패딩 포함 너비 계산 */
+    margin: 20pt;
+}
+
+fieldset {
+    background-color: #f1eedce5;
+    padding: 20px;
+    border: 3px solid #e5ddc548;
+    border-radius: 20px; 
+    margin: 3%;
+}
+

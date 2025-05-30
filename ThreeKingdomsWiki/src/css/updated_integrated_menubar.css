@@ -1,0 +1,58 @@
+
+/* Global reset */
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+/* Section styling */
+section {
+    width: auto;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: contents;
+}
+
+/* Header styling */
+header {
+    width: 100%;
+    display: inline-block;
+    background-color: #0f0f0fdc; /* Using a semi-transparent dark background as in menubar2.css */
+    font-size: 40px; /* As specified in menubar.css for larger text */
+    height: 64.3pt;
+    font-family: "Black Han Sans", sans-serif; /* Specific font styling from menubar.css */  
+    position: fixed;
+    top: 0;
+}
+
+/* Logo styling */
+#logo {
+    float: left;
+    font-size: 23%;
+    text-transform: uppercase;
+    color: #002e5b;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+
+/* Navigation styling */
+nav {
+    width: auto;
+    float: right;
+}
+
+nav .menu-item {
+    float: left;
+    position: relative;
+    width: 180px;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+nav .menu-item a {
+    text-decoration: none;
+    color: white;
+}
