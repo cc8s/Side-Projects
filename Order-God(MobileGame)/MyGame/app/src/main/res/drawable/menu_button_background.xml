@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="?android:attr/colorControlHighlight"> <!-- 클릭 시 물결 효과 색상 -->
+    <item>
+        <shape android:shape="rectangle">
+            <!-- 반투명 배경색 (#99는 약 60%의 투명도를 의미) -->
+            <solid android:color="#99F08080" />
+            <!-- 버튼의 모서리를 둥글게 처리 -->
+            <corners android:radius="28dp" />
+        </shape>
+    </item>
+</ripple>

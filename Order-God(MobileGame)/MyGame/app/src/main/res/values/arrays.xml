@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 암기 시간 설정 -->
+    <string-array name="time_entries">
+        <item>쉬움 (5초)</item>
+        <item>보통 (3초)</item>
+        <item>어려움 (2초)</item>
+    </string-array>
+
+    <string-array name="time_values">
+        <item>5</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- 배경 테마 설정 -->
+    <string-array name="theme_entries">
+        <item>기본</item>
+        <item>우주</item>
+        <item>숲</item>
+    </string-array>
+
+    <string-array name="theme_values">
+        <item>default</item>
+        <item>space</item>
+        <item>forest</item>
+    </string-array>
+</resources>
